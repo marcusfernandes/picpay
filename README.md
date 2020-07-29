@@ -4,7 +4,7 @@ Esse projeto é um clone de duas telas do PicPay, utilizando React Native, Style
 
 ### Como instalar e executar
 - ``` git clone https://github.com/marcusfernandes/picpay/ ```
-- Entre da pasta do projeto ```cd picpay ```
+- Entre na pasta do projeto ```cd picpay ```
 - ``` yarn install ``` (instalar todas as dependências)
 - ``` yarn start ``` (iniciar)
 
