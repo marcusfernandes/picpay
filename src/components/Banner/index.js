@@ -12,7 +12,7 @@ const Banner = () => {
       <Details>
         <Title>Cobre um amigo</Title>
         <Description>
-          Mantenha suas parceirias em dia, da uma saugada neles
+          Mantenha suas parceirias em dia, da uma ajuda neles
         </Description>
       </Details>
       <Image source={img13}/>

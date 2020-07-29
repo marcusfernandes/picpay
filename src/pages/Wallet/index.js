@@ -52,7 +52,7 @@ const Wallet = () => {
     <Wrapper>   
       <Header useBalance={useBalance}>
         <HeaderContainer>
-          <Title>Saldo PicaPay</Title>
+          <Title>Saldo PicPay</Title>
 
           <BalanceContainer>
             <Value>
@@ -64,7 +64,7 @@ const Wallet = () => {
           </BalanceContainer>  
 
           <Info>
-            Seu saldo está rendendo 100% de gala
+            Seu saldo está rendendo 100% de CDI
           </Info>
 
           <Actions>
@@ -83,7 +83,7 @@ const Wallet = () => {
 
       <UseBalance>
         <UseBalanceTitle>
-          Usar saldo ao mamar
+          Usar saldo ao pagar
         </UseBalanceTitle>
         <Switch
           value={useBalance}
@@ -103,10 +103,10 @@ const Wallet = () => {
         <CardBody>
           <CardDetails>
             <Cardtitle>
-              Cadastre seu cartão de cu
+              Cadastre seu cartão
             </Cardtitle>
             <CardInfo>
-              Cadastre um cartão de crédito para poder fazer pagamentos mesmo quando não tiver saldo no seu cu
+              Cadastre um cartão de crédito para poder fazer pagamentos mesmo quando não tiver saldo na sua conta
             </CardInfo>
           </CardDetails>
           <Img source={creditCard} resizeMode="contain"/>
@@ -121,7 +121,7 @@ const Wallet = () => {
 
       <UseTicketButton>
         <MaterialCommunityIcons name="ticket-outline" size={20} color="#0db060"/>
-        <UseTickeLabel>Usar código promocioANAL</UseTickeLabel>
+        <UseTickeLabel>Usar código promocional</UseTickeLabel>
       </UseTicketButton>
 
     </Wrapper>
